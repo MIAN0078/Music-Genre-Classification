@@ -2,11 +2,11 @@
 # Music Genre Classification using GTZAN Dataset
 This project implements a music genre classification system using the GTZAN dataset, exploring both tabular feature-based MLP models and spectrogram-based CNN approaches.
 
-## 📋 Project Overview
+##  Project Overview
 
 The goal of this project is to classify music audio files into 10 different genres using machine learning and deep learning techniques. The implementation includes feature extraction from audio files and building neural network models for classification.
 
-## 🎵 Dataset
+##  Dataset
 
 The project uses the **GTZAN Dataset** which contains 1000 audio tracks (30 seconds each) across 10 music genres:
 - Blues
@@ -22,7 +22,7 @@ The project uses the **GTZAN Dataset** which contains 1000 audio tracks (30 seco
 
 Each genre has 100 audio files in WAV format.
 
-## 🏗️ Project Structure
+##  Project Structure
 
 The notebook implements the following workflow:
 
@@ -33,7 +33,7 @@ The notebook implements the following workflow:
 5. **Model Evaluation**: Performance analysis with classification reports and confusion matrices
 6. **Visualization**: Training history plots and model performance metrics
 
-## 🔧 Technical Implementation
+##  Technical Implementation
 
 ### Feature Extraction
 - **MFCC Features**: 13 MFCC coefficients with mean and standard deviation (26 features total)
@@ -85,7 +85,7 @@ accuracy                           0.71       200
 
 
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Python 3.7+
@@ -104,7 +104,7 @@ The notebook automatically downloads and extracts the GTZAN dataset
 
 Dataset path: gtzan_dataset/Data/genres_original/
 
-🚀 Usage
+##  Usage
 Run in Google Colab:
 
 Upload the notebook to Google Colab
@@ -128,13 +128,13 @@ Progress and metrics are displayed during training
 View classification reports and confusion matrices
 Analyze training history plots
 
-📈 Model Performance Analysis
+## Model Performance Analysis
 The project includes comprehensive visualization:
 Training vs Validation accuracy/loss plots
 Confusion matrices for model performance analysis
 Genre-wise classification metrics
 
-🔮 Future Enhancements
+## Future Enhancements
 Potential improvements for the project:
 Spectrogram-based CNN models for potentially better performance
 Data augmentation techniques for audio files
@@ -142,7 +142,7 @@ Ensemble methods combining multiple models
 Advanced feature extraction (chroma features, spectral contrast)
 Hyperparameter tuning for optimized performance
 
-📚 References
+## References
 GTZAN Dataset: Kaggle Link
 Librosa Audio Processing Library
 TensorFlow/Keras Documentation
